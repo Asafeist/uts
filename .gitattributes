@@ -1,0 +1,6 @@
+uts/** filter=lfs diff=lfs merge=lfs -text
+db/data/ib_logfile* filter=lfs diff=lfs merge=lfs -text
+db/data/ibdata1 filter=lfs diff=lfs merge=lfs -text
+db/data/iblogfile0 filter=lfs diff=lfs merge=lfs -text
+db/data/iblogfile1 filter=lfs diff=lfs merge=lfs -text
+uts/ filter=lfs diff=lfs merge=lfs -text
